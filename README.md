@@ -21,3 +21,5 @@ node arena.js index.js
 ```bash
 npm start
 ```
+
+![browser](https://i.imgur.com/jJXZFRv.png)
