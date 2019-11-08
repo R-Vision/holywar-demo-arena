@@ -47,7 +47,7 @@ class Arena {
           let moveType = 'IDLE';
           let playersKilled;
           let newPosition;
-          const context = vm.createContext({ API: this.getApi(user) });
+          const context = vm.createContext({ API: this.getApi(user), console });
           vm.runInContext(user.code, context);
           const { x, y } = this.nextPosition;
           const distance = Math.round(
